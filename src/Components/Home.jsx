@@ -1,5 +1,6 @@
 import React from 'react';
-import Image from '../assets/hero img.png';
+// import Image from '../assets/hero img.png';
+import Image from '../assets/newimage.jpg';
 import Play from '../assets/Ornament 62.jpg';
 import Loc from '../assets/loc.png';
 import Search from '../assets/Icons.png';
@@ -46,7 +47,7 @@ import { motion } from 'framer-motion';
             
 
     {/* <div id='home' className='lg:h-[105vh] flex flex-col lg:flex-row bg-tertiary items-center lg:bg-cover lg:bg-center lg:bg-no-repeat lg:py-24  md:py-12 py-8 lg:px-24  md:px-12 sm:px-8 px-4 overflow-hidden md:flex justify-between'> */}
-      <div className='text-left flex flex-col pt-16 lg:pb-16  md:pb-12 pb-6'>
+      <div className='text-left flex flex-col pt-16 lg:pb-16  md:pb-12 pb-6 lg:w-[60%] '>
           <img src={Play} alt="play" className=' cursor-pointer lg:w-[5rem] md:w-[4rem] w-[3rem] lg:border-none transform hover:scale-90 transition ease-in 300'/>
         <h1 className='md:text-4xl font3 text-2xl lg:text-5xl lg:w-[40rem] md:w-[35rem]  py-4 font-bold text-[#2E2E2E] lg:text-start leading-tight'>
           Explore a World of Career Oppurtunities Accross Borders
@@ -72,8 +73,8 @@ import { motion } from 'framer-motion';
         </div>
       </div>
 
-      <div className='mt-5 lg:mt-20 lg:ml-8'>
-        <img src={Image} alt="hero_image" className='lg:w-[450px] md:w-[400px]  w-[400px] mt-5 lg:mt-0 lg:ml-8' />
+      <div className='mt-5 lg:mt-20 lg:ml-8 lg:w-[40%] '>
+        <img src={Image} alt="hero_image" className='lg:w-[450px] mdl:w-[400px] md:w-[400px]  w-[400px] mt-5 lg:mt-0 lg:ml-8' />
       </div>
       {/* <img src={Vector} alt="red" className="absolute bottom-10 left-0 transform -translate-x-[20%] translate-y-[5%] lg:w-[5%] md:w-[6%] w-[8%]" /> */}
     {/* </div> */}

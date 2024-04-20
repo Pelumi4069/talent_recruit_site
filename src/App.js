@@ -7,6 +7,8 @@ import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Contact from "./Components/Contact";
 import Frame from './Components/Frame';
+import Signup from "./constants/Account/Signup";
+import Login from "./constants/Account/Login";
 
 
 const Layout = () => {
@@ -28,6 +30,8 @@ function App() {
       <Route path='/about' element={<About />} />
     <Route path='/contact' element={<Contact />} /> 
     <Route path='/top' element={<Frame />} /> 
+    <Route path='/signup' element={<Signup />} /> 
+    <Route path='/login' element={<Login />} /> 
       </Route>
     </Routes>
     </BrowserRouter>

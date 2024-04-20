@@ -44,33 +44,36 @@ const Frame = () => {
          </div>
          </div>
 
-         <div className="lg:flex md:flex hidden  align-start  flex-col md:flex-row md:ml-auto md:mr-auto items-center justify-between lg:gap-20 md:gap-10 gap-6">
+         {/* <div className="lg:flex md:flex hidden  align-start  flex-col md:flex-row md:ml-auto md:mr-auto items-center justify-between lg:gap-20 md:gap-10 gap-6"> */}
+
+         <div className="mb-16 align-start md:grid hidden lg:grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 md:ml-auto md:mr-auto items-center justify-between lg:gap-20 md:gap-10 gap-6">
          <div className='flex flex-col gap-2 justify-start text-start'>
             <img src={ENG} alt='eng' className='w-10' />
-            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base text-base">Software Engineer</h3>
-            <p className="text-[#2E2E2E] text-sm">200 open positions</p>
+            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base sm:text-base text-sm">Software Engineer</h3>
+            <p className="text-[#2E2E2E] md:text-sm text-xs lg:text-sm sm:text-sm">200 open positions</p>
          </div>
          <div className='flex flex-col gap-2 justify-start text-start'>
             <img src={PRO} alt='eng' className='w-10' />
-            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base text-base">Product Manager</h3>
-            <p className="text-[#2E2E2E] text-sm">200 open positions</p>
+            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base sm:text-base text-sm">Product Manager</h3>
+            <p className="text-[#2E2E2E] md:text-sm text-xs lg:text-sm sm:text-sm">200 open positions</p>
          </div>
          <div className='flex flex-col gap-2 justify-start text-start'>
             <img src={SCI} alt='eng' className='w-10' />
-            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base text-base">Data Scientist</h3>
-            <p className="text-[#2E2E2E] text-sm">200 open positions</p>
+            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base sm:text-base text-sm">Data Scientist</h3>
+            <p className="text-[#2E2E2E] md:text-sm text-xs lg:text-sm sm:text-sm">200 open positions</p>
          </div>
          <div className='flex flex-col gap-2 justify-start text-start'>
             <img src={DES} alt='eng' className='w-10' />
-            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base text-base">Product Design</h3>
-            <p className="text-[#2E2E2E] text-sm">200 open positions</p>
+            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base sm:text-base text-sm">Product Design</h3>
+            <p className="text-[#2E2E2E] md:text-sm text-xs lg:text-sm sm:text-sm">200 open positions</p>
          </div>
          <div className='flex flex-col gap-2 justify-start text-start'>
             <img src={MAR} alt='eng' className='w-10' />
-            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base text-base">Marketing</h3>
-            <p className="text-[#2E2E2E] text-sm">200 open positions</p>
+            <h3 className="text-[#2E2E2E] lg:text-lg md:text-base sm:text-base text-sm">Marketing</h3>
+            <p className="text-[#2E2E2E] md:text-sm text-xs lg:text-sm sm:text-sm">200 open positions</p>
          </div>
          </div>
+
 
 
          </div>

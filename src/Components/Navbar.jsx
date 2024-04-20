@@ -42,6 +42,7 @@ function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex  items-center ml-10 ">
+                <Link to="/">
                 <div className="flex flex-shrink-0 items-center">
                   <img
                     className="lg:h-8 md:h-[1.8rem]  sm:h-[1.8rem]  h-[1.4rem] w-auto"
@@ -49,6 +50,7 @@ function Navbar() {
                     alt="logo"
                   />
                 </div>
+                </Link>
                 <div className="lg:block hidden sm:ml-6">
                 <div className="flex space-x-4">
                     {navigation.map((item) => (
@@ -70,13 +72,18 @@ function Navbar() {
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static  sm:inset-auto sm:ml-6 sm:pr-0">
 <div className=' lg:block md:block sm:block'>
 <div className='flex flex-row md:flex-row justify-between lg:mt-4 mt-0 gap-2'>
+             <Link
+                        to="/login" >
 <button className='inline-flex font5 bg-black-600 border-secondary border-[1px] lg:text-sm text-xs py-1 lg:px-5 md:px-3 sm:px-3 px-2 mt-2 md:mt-0 bg-white transform hover:scale-110 transition ease-out 300 text-secondary p-2 rounded'>
                Login
            </button>
-
+           </Link>
+           <Link
+                        to="/signup" >
            <button className='inline-flex font5 bg-black-600 lg:text-sm text-xs border-0 py-1 lg:px-5 md:px-3 sm:px-3 px-2 mt-2 md:mt-0 bg-secondary transform hover:scale-110 transition ease-out 300 text-white p-2 rounded'>
                Sign up
            </button>
+           </Link>
            </div>
            </div>
 

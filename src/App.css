@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'font1';
   src: url('../src/font/SpaceGrotesk-Bold.ttf') format('truetype');

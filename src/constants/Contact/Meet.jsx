@@ -9,12 +9,13 @@ const Meet = () => {
     <div className='lg:h-[105vh] flex items-center lg:bg-cover lg:bg-center 
     lg:bg-no-repeat py-8 lg:px-24  md:px-12 font4 px-6  lg:py-0 overflow-hidden md:flex  bg-tertiary'>
         <div className=' container mx-auto flex flex-col items-center justify-center'>
-            <div className='py-10 bg-tertiary-50  rounded-xl text-center'>
-            <h1 className='text-[#022F5C] font-bold lg:text-3xl  md:text-3xl  text-2xl mb-2 font4'>Meet The Team</h1>
+        <div className='py-10 bg-tertiary-50  rounded-xl text-center'>
+    <h1 className='text-[#022F5C] font-bold lg:text-3xl  md:text-3xl  text-2xl mb-2 font4'>Meet The Team</h1>
+    <div className="flex items-center justify-center"> 
         <hr className='w-[8rem] bg-[#022F5C] py-[0.1rem] text-[#022F5C] bg-center items-center justify-center text-center' />
-                <p className='lg:text-base md:text-base sm:text-sm text-sm text-[#2E2E2E] py-2 lg:w-[36rem] md:w-[36rem] my-2 font4'>Behind TalentRoute's dedication to your career success stands a team of passionate individuals committed to supporting you on your journey. Get to know the faces behind the platform, each bringing unique expertise and enthusiasm to empower you in your professional endeavors</p>
-            </div>
-
+    </div>
+    <p className='text-base text-[#2E2E2E] py-2 lg:w-[36rem] md:w-[36rem] my-2 font4'>Behind TalentRoute's dedication to your career success stands a team of passionate individuals committed to supporting you on your journey. Get to know the faces behind the platform, each bringing unique expertise and enthusiasm to empower you in your professional endeavors</p>
+</div>
             <div className='  items-center flex flex-col lg:flex-row md:flex-row gap-8'>
                 <div className="flex flex-col text-center justify-center gap-2">
                     <img src={JOHN} alt='img' className='w-60'  />
@@ -34,7 +35,7 @@ const Meet = () => {
                 </div>
               
             </div>
-      <img src={Vector} alt="red" className="absolute  right-0 transform -translate-x-[-10%] translate-y-[-50%] lg:w-[5%] md:w-[6%] w-[8%]" />
+      <img src={Vector} alt="red" className="absolute  right-0 transform -translate-x-[1%] translate-y-[-50%] lg:w-[5%] md:w-[6%] w-[8%]" />
 
         </div>
         

@@ -21,10 +21,15 @@ const Footer = () => {
             <p className="text-sm w-full xl:w-[80%] text-[#2E2E2E]">Explore Exciting Job Opportunities Worldwide
             </p>
             <div className="flex flex-row gap-4 ">
+            <a href="https://www.linkedin.com/in/adewunmi-pelumi-09776b210/"  target="_blank" rel="noopener noreferrer">
+                <img src={Linkedin} alt="fb" className="w-4 h-4" />
+                </a>
+                <a href="https://www.instagram.com/me_that_iamweird?igsh=MTIybWdhd2t1MnhzOA%3D%3D&utm_source=qr"  target="_blank" rel="noopener noreferrer">
+                <img src={Instagram} alt="fb" className="w-4 h-4 " />
+                </a>
                 <img src={Facebook} alt="fb" className="w-4 h-4" />
                 <img src={Twitter} alt="fb" className="w-4 h-4" />
-                <img src={Instagram} alt="fb" className="w-4 h-4 " />
-                <img src={Linkedin} alt="fb" className="w-4 h-4" />
+             
             </div>
           </div>
         </div>

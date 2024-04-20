@@ -1,6 +1,8 @@
 import React from 'react';
 import Obj from '../../assets/obj.png';
 import Check from '../../assets/checked.png';
+import { Link } from "react-router-dom";
+
 
 
 
@@ -31,11 +33,13 @@ const Objective = () => {
                     <img src={Check} alt='check' className='mr-2 w-[7%]' />
                     <p className="text-[#2E2E2E] lg:text-base md:text-base text-sm font4">Deliver Results</p>
                 </div>
+                <Link to="/signup">
                 <div className='mb-4'>
                 <button className='bg-secondary font4 text-white text-sm lg:text-base py-2 px-4 rounded-md mb-2 lg:mb-0 lg:mr-7 cursor-pointer hover:bg-accent hover:text-primary transform hover:scale-110 transition ease-out 300'>
             Sign up
           </button>
           </div>
+          </Link>
             </div>
 
             <div className='lg:block md:block hidden' >
