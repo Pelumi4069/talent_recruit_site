@@ -49,10 +49,10 @@ import { motion } from 'framer-motion';
     {/* <div id='home' className='lg:h-[105vh] flex flex-col lg:flex-row bg-tertiary items-center lg:bg-cover lg:bg-center lg:bg-no-repeat lg:py-24  md:py-12 py-8 lg:px-24  md:px-12 sm:px-8 px-4 overflow-hidden md:flex justify-between'> */}
       <div className='text-left flex flex-col pt-16 lg:pb-16  md:pb-12 pb-6 lg:w-[60%] '>
           <img src={Play} alt="play" className=' cursor-pointer lg:w-[5rem] md:w-[4rem] w-[3rem] lg:border-none transform hover:scale-90 transition ease-in 300'/>
-        <h1 className='md:text-4xl font3 text-2xl lg:text-5xl lg:w-[40rem] md:w-[35rem]  py-4 font-bold text-[#2E2E2E] lg:text-start leading-tight'>
+        <h1 className='md:text-4xl font3 text-2xl lg:text-5xl lg:w-[35rem] md:w-[35rem] lg:leading-[4rem]  py-4 font-bold text-[#2E2E2E] lg:text-start '>
           Explore a World of Career Oppurtunities Accross Borders
         </h1>
-        <h3 className='py-2 font4 md:text-base text-sm lg:text-lg text-[#2E2E2E] lg:w-[35rem] md:w-[30rem]  lg:text-start '>
+        <h3 className='py-2 font4 md:text-base text-sm lg:text-lg text-[#2E2E2E] lg:w-[34rem] md:w-[30rem]  lg:text-start '>
         Embark on an Exciting Journey of Global Career Exploration: Uncover a Multitude of Opportunities Across Borders, Tailored Just for  Your Unique Skills and Aspirations
         </h3>
         <div className='py-3 flex md:flex-row flex-col lg:gap-6 md:gap-5 sm:gap-4 gap-2 lg:flex-row justify-start lg:justify-start items-start'>

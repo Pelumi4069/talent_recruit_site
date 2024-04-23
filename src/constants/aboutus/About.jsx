@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion'; // Import motion from framer-motion library
+import { motion } from 'framer-motion'; 
 import Hero1 from '../../assets/hero1.png';
 import Hero2 from '../../assets/hero2.png';
 import Hero3 from '../../assets/hero3.png';

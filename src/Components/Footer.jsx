@@ -22,13 +22,13 @@ const Footer = () => {
             </p>
             <div className="flex flex-row gap-4 ">
             <a href="https://www.linkedin.com/in/adewunmi-pelumi-09776b210/"  target="_blank" rel="noopener noreferrer">
-                <img src={Linkedin} alt="fb" className="w-4 h-4" />
+                <img src={Linkedin} alt="fb" className="w-4 h-4 transform hover:scale-110 transition ease-out 300" />
                 </a>
                 <a href="https://www.instagram.com/me_that_iamweird?igsh=MTIybWdhd2t1MnhzOA%3D%3D&utm_source=qr"  target="_blank" rel="noopener noreferrer">
-                <img src={Instagram} alt="fb" className="w-4 h-4 " />
+                <img src={Instagram} alt="fb" className="w-4 h-4 transform hover:scale-110 transition ease-out 300" />
                 </a>
-                <img src={Facebook} alt="fb" className="w-4 h-4" />
-                <img src={Twitter} alt="fb" className="w-4 h-4" />
+                <img src={Facebook} alt="fb" className="w-4 h-4 cursor-pointer transform hover:scale-110 transition ease-out 300" />
+                <img src={Twitter} alt="fb" className="w-4 h-4 cursor-pointer transform hover:scale-110 transition ease-out 300" />
              
             </div>
           </div>

@@ -50,15 +50,15 @@ const Client = () => {
           <img src={Image} alt="hero_image" className='w-[400px] mt-5 lg:mt-0' />
         </div>
         <div className='text-start flex flex-col lg:pt-20 lg:pb-16 md:pb-12 pb-6 justify-center'>
-          <img src={Play} alt="play" className='cursor-pointer lg:w-[5rem] md:w-[4rem] w-[3rem] lg:border-none transform hover:scale-90 transition ease-in 300'/>
+          <img src={Play} alt="play" className='cursor-pointer lg:w-[5rem] md:w-[4rem] w-[3rem] lg:border-none '/>
           <h3 className='py-2 md:text-base text-sm lg:text-base text-[#2E2E2E] lg:w-[35rem] md:w-[30rem] lg:text-start'>
             {testimonials[textIndex].quote}
           </h3>
           <h2 className="text-base font-bold">{testimonials[textIndex].author}</h2>
           <p className="text-sm">{testimonials[textIndex].position}</p>
           <div className='py-3 flex  lg:gap-6 md:gap-5 sm:gap-4 gap-2 flex-row justify-start lg:justify-start items-start'>
-            <img src={Left} alt="left" onClick={handlePrev} />
-            <img src={Right} alt="right" onClick={handleNext} />
+            <img src={Left} alt="left" onClick={handlePrev} className='cursor-pointer transform hover:scale-90 transition ease-in 300' />
+            <img src={Right} alt="right" onClick={handleNext} className='cursor-pointer transform hover:scale-90 transition ease-in 300' />
           </div>
         </div>
       </motion.div>

@@ -3,11 +3,17 @@ import Vector from '../../assets/vec2.png';
 import JOHN from '../../assets/john.png';
 import KYLE from '../../assets/kyle.png';
 import JOSE from '../../assets/jose.png';
+import { motion } from 'framer-motion'; 
 
 const Meet = () => {
   return (
-    <div className='lg:h-[105vh] flex items-center lg:bg-cover lg:bg-center 
-    lg:bg-no-repeat py-8 lg:px-24  md:px-12 font4 px-6  lg:py-0 overflow-hidden md:flex  bg-tertiary'>
+    <motion.div
+      initial={{ opacity: 0 }} 
+      animate={{ opacity: 1 }} 
+      transition={{ duration: 0.7 }} 
+      className='lg:h-[100vh] flex items-center justify-center lg:bg-cover lg:bg-center 
+      lg:bg-no-repeat lg:p-20  md:p-12 p-6 lg:py-0 overflow-hidden bg-tertiary '
+    >
         <div className=' container mx-auto flex flex-col items-center justify-center'>
         <div className='py-10 bg-tertiary-50  rounded-xl text-center'>
     <h1 className='text-[#022F5C] font-bold lg:text-3xl  md:text-3xl  text-2xl mb-2 font4'>Meet The Team</h1>
@@ -39,7 +45,7 @@ const Meet = () => {
 
         </div>
         
-    </div>
+        </motion.div>
   )
 }
 
