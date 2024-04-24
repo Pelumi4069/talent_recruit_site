@@ -50,7 +50,7 @@ const Client = () => {
           <img src={Image} alt="hero_image" className='w-[400px] mt-5 lg:mt-0' />
         </div>
         <div className='text-start flex flex-col lg:pt-20 lg:pb-16 md:pb-12 pb-6 justify-center'>
-          <img src={Play} alt="play" className='cursor-pointer lg:w-[5rem] md:w-[4rem] w-[3rem] lg:border-none '/>
+          <img src={Play} alt="play" className='cursor-pointer lg:w-[5rem] md:w-[4rem] w-[4rem] lg:border-none '/>
           <h3 className='py-2 md:text-base text-sm lg:text-base text-[#2E2E2E] lg:w-[35rem] md:w-[30rem] lg:text-start'>
             {testimonials[textIndex].quote}
           </h3>

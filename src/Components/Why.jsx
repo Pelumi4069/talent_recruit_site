@@ -35,8 +35,8 @@ const Why = () => {
                 </div>
                 <Link to="/signup">
                 <div className='mb-4'>
-                <button className='bg-secondary font4 text-white text-sm lg:text-base py-2 px-4 rounded-md mb-2 lg:mb-0 lg:mr-7 cursor-pointer hover:bg-accent hover:text-primary transform hover:scale-110 transition ease-out 300'>
-            Sign up
+                <button className='bg-secondary font4 text-white text-sm lg:text-base py-2 px-4 rounded-md mb-2 lg:mb-0 lg:mr-7 cursor-pointer hover:bg-[#2E2E2E] hover:text-primary transform hover:scale-110 transition ease-out 300'>
+            Sign up  ⇗
           </button>
           </div>
           </Link>

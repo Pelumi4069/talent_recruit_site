@@ -66,7 +66,7 @@ import { motion } from 'framer-motion';
                 <p className='text-[#2E2E2E] lg:text-base text-sm lg:block md:block hidden font4'>Location</p>
             </div>
             <div className='justify-center items-center'>
-          <button className='bg-secondary font5 justify-center items-center text-white md:text-base lg:text-base text-sm md:py-2 py-1 lg:py-2 lg:px-8 md:px-7 px-4 rounded-md mb-2 lg:mb-0 lg:mr-7 cursor-pointer hover:bg-accent hover:text-primary transform hover:scale-110 transition ease-out 300'>
+          <button className='bg-secondary font5 justify-center items-center text-white md:text-base lg:text-base text-sm md:py-2 py-1 lg:py-2 lg:px-8 md:px-7 px-4 rounded-md mb-2 lg:mb-0 lg:mr-7 cursor-pointer hover:bg-[#2E2E2E] hover:text-primary transform hover:scale-110 transition ease-out 300'>
             Search
           </button>
           </div>

@@ -14,7 +14,7 @@ const Frame = () => {
     lg:bg-no-repeat lg:p-24 md:p-12 p-6 lg:py-0 overflow-hidden bg-tertiary mt-8'>
         <div className='flex flex-col'>
             <div className='flex justify-center text-[#022F5C]'>
-                <h1 className='lg:text-3xl md:text-3xl sm:text-2xl text-xl font-bold py-4 mb-6 font4'>Top Job Oppurtunities</h1>
+                <h1 className='lg:text-3xl md:text-3xl sm:text-2xl text-xl font-bold py-4 mb-6 font5'>Top Job Oppurtunities</h1>
             </div>
          <div className="mb-16 align-start   grid grid-cols-2 md:grid-cols-5 lg:grid-cols-5 md:ml-auto md:mr-auto items-center justify-between lg:gap-20 md:gap-10 gap-6">
          <div className='flex flex-col gap-2 justify-start text-start'>
